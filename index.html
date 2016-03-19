@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Demo of Height:100%</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+<h2>Demo of height:100&#37;</h2>
+
+<div class="height100percent pastel-green">
+<ul>
+    <li><b>with</b> <a href=with.html>html,body:100&#37;</a>  - html,body &#123; height:100&#37;  &#125;</li>
+    <li><b>without</b> <a href=without.html>html,body:100&#37;</a>  - html,body &#123; &#125; </li>
+</ul>
+</div>
+
+<i>The output of <a href=http://man7.org/linux/man-pages/man1/diff.1.html>diff(1)</a> is below.</i>
+<p>
+<pre class=outerCode>
+<code>$ diff with.html without.html
+2c2
+&lt; &lt;html class="height100percent"&gt;
+---
+&gt; &lt;html&gt;
+9c9
+&lt; &lt;body class="height100percent"&gt;
+---
+&gt; &lt;body&gt;</code>
+</pre>
+
+
+<div class=copyright>
+    <span id=copyright>Created by Jesus Monroy, Jr. &copy; 2016</span>
+</div>
+
+</body>
+</html>

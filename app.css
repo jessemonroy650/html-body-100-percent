@@ -1,0 +1,14 @@
+body {margin:0px;font-size:medium;}
+h2 {margin:0.5em;}
+ul {padding:0.5em 1em;}
+li {margin:0.5em;}
+hr {margin:0 auto;}
+.hidden {visibility:collapse;display:none;}
+.expose {visibility:visible;display:block;} /* Here for completeness only. */
+.copyright {padding:0.2em;align:left;font-style:italic;font-size:small;}
+
+.height100percent {height:100%}
+.pastel-green {background-color:hsl(135,25%,75%);}
+
+.outerCode { background-color:#eeeeee;padding:0.5em;margin:0 0.5em; }
+
